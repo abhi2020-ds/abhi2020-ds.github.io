@@ -14,7 +14,7 @@
 - [x] Update the Gitpage
 - [ ] Categorize repos based on technologies and languages
 
-[<img src="https://img.shields.io/badge/Massive%20Integration-Complete-green.svg?style=for-the-badge" alt="repo outline">](#massively)  
+[<img src="https://img.shields.io/badge/Massively%20Integration-Complete-green.svg?style=for-the-badge" alt="repo outline">](#massively)  
 
 # Massively
 > This is Massively, a text-heavy, article-oriented design built around a huge background
