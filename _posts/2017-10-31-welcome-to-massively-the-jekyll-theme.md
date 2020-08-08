@@ -2,8 +2,8 @@
 layout: post
 title:  "Journey towards Data Engineering"
 date:   2020-03-31
-excerpt: "How to get into "
-image: "/images/pic02.jpg"
+excerpt: "My experience and journey towards data science and engineering"
+image: "/images/hand_img.jpg"
 ---
 
 ## The Start
