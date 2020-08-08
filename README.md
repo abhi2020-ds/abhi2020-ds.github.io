@@ -4,7 +4,7 @@
  <img src="https://media.giphy.com/media/twQN0OB84MFP2/giphy.gif" height="130px" width="120px" style="float:right" align="right"/>
   </div>
   
- > "It has become appallingly obvious that our technology has exceeded our humanity." Albert Einstein
+ > "Have the **courage** to follow your **heart** and **intuition**." Steve Jobs
   
   This GitPage is under construction and would consist of code snippets and concepts around data science and data engineering projects. Technologies used throughout will be traditional SQL, Python, R, Cognos and PowerBI. Once there is a framework built up, I will expand this repo to other applications such as Microsoft 365 Suite Tips and Tricks.
 
