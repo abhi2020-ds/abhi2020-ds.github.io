@@ -6,10 +6,10 @@
   
  > "Have the **courage** to follow your **heart** and **intuition**." Steve Jobs
   
-  This GitPage is under construction and would consist of code snippets and concepts around data science and data engineering projects. Technologies used throughout will be traditional SQL, Python, R, Cognos and PowerBI. Once there is a framework built up, I will expand this repo to other applications such as Microsoft 365 Suite Tips and Tricks.
+  This Git page consists of code snippets and concepts related to data science and data engineering. Blogs would be around industry standards around languages and tools such as SQL, Python, R, Cognos and PowerBI.
 
-  Feel free to contribute to this page as well as other repositories associated with my git account. Looking forward to exploring world of data science through lens of different technologies.
-  
+Looking forward to exploring world of data engineering and data science.  
+
 - [x] Modify Readme.md :+1:
 - [x] Update the Gitpage
 - [ ] Categorize repos based on technologies and languages
