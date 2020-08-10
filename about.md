@@ -15,7 +15,7 @@ I am Sr Developer - Data Analytics at a leading digital financial firm. I have b
 
 During high school when I was introduced to MS DOS and GW Basic , my interest towards learning computer language grew further. At home our first computer was an IBM machine with Windows 98 Operating System. I learnt high level languages like C, Java and C++ during my 10th grade along with markup languages like HTML. Fast forward to now, my career path has been centralized towards data analytics and science using BI platforms like Cognos, SQL, and Power BI. 
 
-### Content is Imortant
+### Work Experience
 <div class="box">
   <p>
   Having worked in data warehouse environment, my concepts for advanced database systems strenghtened. Manufacturing and Finance Industry exposure gave me better understanding of key business operations.To translate those business rules into technical solutions sparked my interest in business analysis portion of the entire BI solution lifecycle.
