@@ -17,10 +17,10 @@ During high school when I was introduced to MS DOS and GW Basic , my interest to
 
 
   <p>
-  Having worked in data warehouse environment, my concepts for advanced database systems strenghtened. Manufacturing and Finance Industry exposure gave me better understanding of key business operations.To translate those business rules into technical solutions sparked my interest in business analysis portion of the entire BI solution lifecycle.
+  Having worked in data warehouse environment for many years, my concepts for advanced database systems strenghtened. Working at manufacturing and finance Industries provided me better understanding of key business operations.To translate these business operation rules into technical solutions sparked my interest to dive deeper into Business Intelligence technologies.
   </p>
 
 
 <span class="image left"><img src="{{ "/images/analytics_art.jpg" | absolute_url }}" alt="" /></span>
 
-Currently, I have taken courses on Machine Learning , AWS ML Services and Google ML platform. I am also learning R Scripting , Python and R Markdown and have started documenting my work in github instance, 
+Currently, I have taken courses on Machine Learning , AWS ML Services and Google ML platforms. I addition,  I am learning R Scripting , Python and R Markdown.
