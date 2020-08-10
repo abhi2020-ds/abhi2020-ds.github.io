@@ -7,13 +7,13 @@ sitemap:
     lastmod: 2020-08-11
     changefreq: weekly
 ---
-## About our Site
+## About Me
 
 <span class="image left"><img src="{{ "/images/profile.jpg" | absolute_url }}" alt="" /></span>
 
-Making steady content and conveying it well takes a great deal of research and, hence, time and exertion. Building a profound established comprehension of your target customer needs is critical as your principle objective ought to be to fulfill their requirements as awesome content. You should need to enhance their lives. Having significant content like this may not be simple by any methods. Be that as it may, in any case, it's a fundamental apparatus in the event that you expect to grow a fruitful and supportable business in the present web focused world.
+I am Sr Developer - Data Analytics at a reputable financial firm. I have been working at data engineering space for almost 10 years now. I hold a M.S degree in Computer Sc from University Of Illinois, my bachelors degree is also in Computer Sc from SJB Institute Of Technology at Bangalore.
 
-Receiving the benefits of content is a certain something. Be that as it may, it's so substantially less demanding once you begin conveying all the more successfully. The profitable content thought isn't just about bragging your item's capacities and general worth or your organization's achievements. You should concentrate less on advertising how awesome your item is and rather concentrate on indicating how valuable it is. This is a client focused approach as it concentrates on their issues and your answer for them. Making yourself fundamental is critical.
+During high school when I was introduced to MS DOS and GW Basic , my interest towards learning computer language grew further. At home we had IBM machine with Windows 98 Operating System. I learnt HTML,C, and C++ during my 10th grade. Fast forward to now, I have had opportunity to work with great individuals and academic scholars
 
 ### Content is Imortant
 <div class="box">
@@ -22,6 +22,6 @@ Receiving the benefits of content is a certain something. Be that as it may, it'
   </p>
 </div>
 
-<span class="image left"><img src="{{ "/images/pic05.jpg" | absolute_url }}" alt="" /></span>
+<span class="image left"><img src="{{ "/images/analytics_art.jpg" | absolute_url }}" alt="" /></span>
 
 On social media, we may share our own thoughts and advance our image notwithstanding spreading musings for different associations and affiliations. With such a critical number of associations with people and relationship on social media, our experience can be over-burden with a considerable measure of information.
