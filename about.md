@@ -17,7 +17,7 @@ During high school when I was introduced to MS DOS and GW Basic , my interest to
 
 
   <p>
-  Having worked in data warehouse environment for many years, my concepts for advanced database systems strenghtened. Working at manufacturing and finance Industries provided me better understanding of key business operations.To translate these business operation rules into technical solutions sparked my interest to dive deeper into Business Intelligence technologies.
+  Having worked in data warehouse environment for many years, my concepts for advanced database systems strenghtened. Working at manufacturing and finance Industries provided better understanding of key business operations. To translate these business rules into technical solutions sparked interest towards diving deeper into Business Intelligence technologies.
   </p>
 
 
