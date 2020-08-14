@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Data Vigyan
+title: Data ∇gγ@π
 description: Blogs are best way to document ideas and share your point of view about any topic with rest of the world.
 sitemap:
     priority: 1.0
