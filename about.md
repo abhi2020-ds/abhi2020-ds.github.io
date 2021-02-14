@@ -11,9 +11,9 @@ sitemap:
 
 <span class="image left"><img src="{{ "/images/profile.jpg" | absolute_url }}" alt="" /></span>
 
-A Sr Developer - Data Analytics at a leading digital financial firm. I have been working in data science and engineering space for 10+ years now. From academics perspective I have a M.S degree in Computer Sc from University Of Illinois. I also have bachelors degree in Computer Sc from SJB Institute Of Technology at Bangalore India.
+A Sr Developer - Data Analytics at a leading digital financial firm. I have been working in data science and engineering space for 10+ years. From academics standpoint I have a M.S degree in Computer Sc from University Of Illinois and a bachelors degree in Computer Sc from SJB Institute Of Technology at Bangalore India.
 
-Technology has always been a passion in my life. At high school I was stmbled upon my first encounter with computer and Operating Systems : MS DOS and GW Basic language. It was fascinating to see how one can communicate with machine and use it for computing and virtual interaction experience. At home, first PC we had was an IBM machine with Windows 98 Operating System installed. As I continued to progress towards technical learning I learnt programming languages such as HTML, C, Java and C++ to name a few. At present, my professional journey is mainly inclined towards data analytics and engineering using BI platforms like Cognos, ThoughtSpot, and Power BI. 
+Technology has been my passion since high school when I stmbled upon my first encounter with computers and Operating Systems : MS DOS and GW Basic language. It was fascinating to see how we can communicate with machines and use it for computing along with experiencing virtual interaction. At home, IBM machine was my frst PC with Windows 98 Operating System installed. As I continued to advance through my technical learning I learnt programming languages such as HTML, C, Java and C++ at an early time. At present, my major area of focus is towards data analytics and engineering using BI platforms like Cognos, ThoughtSpot, and Power BI. 
 
 
   <p>
