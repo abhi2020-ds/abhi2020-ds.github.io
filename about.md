@@ -21,6 +21,4 @@ Technology has been my passion since high school when I stmbled upon my first en
   </p>
 
 
-<span class="image left"><img src="{{ "/images/analytics_art.jpg" | absolute_url }}" alt="" /></span>
-
 Currently, I have been learning Machine Learning , AWS ML Services and Google ML platforms. I addition,  I am learning open source languages such as R and Python. I continue to learn new platforms and languages to keep myself updated to current trends in field of data engineering and science.
