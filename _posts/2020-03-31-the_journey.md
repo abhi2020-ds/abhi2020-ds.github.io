@@ -11,19 +11,10 @@ IT Professionals working with Business Intelligence and Analytics Platform are w
 
 <div class="row">
     <div class="6u 12u$(small)">
-        <h3>Unordered</h3>
+        <h3>References</h3>
         <ul>
-            <li>The first item on the list.</li>
-            <li>The second item.</li>
-            <li>And the fourth item!</li>
-            <li>Just kidding that last one was the third.</li>
-        </ul>
-        <h3>Alternate</h3>
-        <ul class="alt">
-            <li>The first item on the list.</li>
-            <li>The second item.</li>
-            <li>And the fourth item!</li>
-            <li>Just kidding that last one was the third.</li>
+            <li><a href="https://www.thoughtspot.com/press-releases/thoughtspot-named-a-leader-in-the-gartner-2019-magic-quadrant-for-analytics-and-business-intelligence-platforms">ThoughtSpot Press Release</a></li>
+            <li><a href="https://www.gartner.com/en/research/methodologies/magic-quadrants-research">Gartner Magic Quadrant</a></li>
         </ul>
     </div>
     </div>
