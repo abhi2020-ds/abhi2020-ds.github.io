@@ -10,7 +10,7 @@ image: "/images/thoughtspot.png"
 IT Professionals working with Business Intelligence and Analytics Platform are well acquianted with Gartner and its magic quadrants. Technology leaders in analytocs space try to land into "Leaders" quadrant. The other quadrants comprises of "Challengers", "Leaders", "Niche Players" and "Visionaries". Microsoft is currently leading this space in "Leader" quadrant with PowerBI tool followed by Tableau , Qlik and ThoughtSpot.
 
 <div class="box">
-    <p>According to Gartner: “As disruptive as visual-based data discovery has been to traditional BI, a third wave of disruption has emerged in the form of augmented analytics, with machine learning (ML) generating insights on increasingly vast amounts of data. Augmented analytics also includes natural language processing (NLP) as a way of querying data and of generating narratives to explain drivers and graphics.”</p>
+    <blockquote>According to Gartner: “As disruptive as visual-based data discovery has been to traditional BI, a third wave of disruption has emerged in the form of augmented analytics, with machine learning (ML) generating insights on increasingly vast amounts of data. Augmented analytics also includes natural language processing (NLP) as a way of querying data and of generating narratives to explain drivers and graphics.”</blockquote>
 </div>
 
 <hr />
