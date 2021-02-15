@@ -52,7 +52,7 @@
 									<span class="date">{{ post.date | date_to_string }}</span>
 									<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
 								</header>
-                                <div class="4u$"><span class="image fit"><a href="{{ post.url | absolute_url }}"><img src="{{ post.image | absolute_url }}" alt="" style="padding-left:100px;padding-right:100px"/></a></span></div>
+                                <div class="4u$"><span class="image fit"><a href="{{ post.url | absolute_url }}"><img src="{{ post.image | absolute_url }}" alt="" style="justify-content: center"/></a></span></div>
 								<p>{{ post.excerpt }}</p>
 								<ul class="actions">
 									<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
