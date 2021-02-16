@@ -19,6 +19,9 @@ image: "/images/thoughtspot.png"
 <div style="margin-left: auto;
 margin-right: auto;"><span class="image fit"><img src="{{ "/images/TSpot_Arch.png" | absolute_url }}" alt="" /></span></div>
 
+<h5>Overview</h5>
+<p>In a nutshell you can scale ThoughtSpot horizontal and vertical by adding distributed clusters and nodes to the environment for supporting fast responsive analytics platform. Components in <font color="blue">blue</font> highlights different capabilities ThoughtSpot offers such as "Search" tool , Pinboards, SpotIQ etc. Governed by AI engine to drive usage based ranking for analytics recommendation</p>
+
 <hr /> 
 
 <div class="row">
