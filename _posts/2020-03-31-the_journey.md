@@ -16,6 +16,9 @@ image: "/images/thoughtspot.png"
 
 <h2>ThoughtSpot Architecture </h2>
 
+<div style="margin-left: auto;
+margin-right: auto;"><img src="{{ "/images/TSpot.jpg" | absolute_url }}" alt="" /></div>
+
 <hr /> 
 
 <div class="row">
