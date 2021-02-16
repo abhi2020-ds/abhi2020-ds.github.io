@@ -20,7 +20,10 @@ image: "/images/thoughtspot.png"
 margin-right: auto;"><span class="image fit"><img src="{{ "/images/TSpot_Arch.png" | absolute_url }}" alt="" /></span></div>
 
 <h5>Overview</h5>
-<p>In a nutshell you can scale ThoughtSpot horizontal and vertical by adding distributed clusters and nodes to the environment for supporting fast responsive analytics platform. Components in <font color="blue">blue</font> highlights different capabilities ThoughtSpot offers such as "Search" tool , Pinboards, SpotIQ etc. Governed by AI engine to drive usage based ranking for analytics recommendation</p>
+<p>In a nutshell you can scale ThoughtSpot horizontal and vertical by adding distributed clusters and nodes to the cloud environment for supporting fast responsive analytics platform. You can use AWS, Azure or GCP as the cloud platform to deploy your ThoughtSpot application. Components in <font color="blue">blue</font> highlights different capabilities ThoughtSpot offers such as "Search" tool , Pinboards, SpotIQ etc. Governed by AI engine to drive usage based ranking for analytics recommendation</p>
+
+<h5>Tool Highlight</h5>
+<p><span class="image left"><img src="{{ "/images/Top Menu.png" | absolute_url }}" alt="" /></span>ThoughtSpot Interface consists of : Search, Answer, Pinboard, Data and Admin option</p>
 
 <hr /> 
 
