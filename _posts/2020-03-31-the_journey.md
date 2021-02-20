@@ -23,7 +23,10 @@ margin-right: auto;"><span class="image fit"><img src="{{ "/images/TSpot_Arch.pn
 <p>In a nutshell you can scale ThoughtSpot horizontal and vertical by adding distributed clusters and nodes to the cloud environment for supporting fast responsive analytics platform. You can use AWS, Azure or GCP as the cloud platform to deploy your ThoughtSpot application. Components in <font color="blue">blue</font> highlights different capabilities ThoughtSpot offers such as "Search" tool , Pinboards, SpotIQ etc. Governed by AI engine to drive usage based ranking for analytics recommendation</p>
 
 <h5>Tool Highlight</h5>
-<p><span class="image left"><img src="{{ "/images/Top Menu.png" | absolute_url }}" alt="" /></span>ThoughtSpot Interface consists of : Search, Answer, Pinboard, Data and Admin option</p>
+<p><span class="image right"><img src="{{ "/images/Top Menu.png" | absolute_url }}" alt="" /></span>ThoughtSpot Menu Options consists of : Search, Answer, Pinboard, Data and Admin Tabs.</p>
+<h6>Search</h6>
+<p> <span class="image right"><img src="{{ "/images/Search.png" | absolute_url }}" alt="" /></span>Search usually is used for creating Answers and Pinboards using Worksheets, Views and Tables as sources. It's very intuitive and can find your fields from the sources automatically within search bar. It also relays data in a suitable visual automatically. If you like your search result then you can save them in the form of "Answers" and also Pin those visuals and create a consolidated "Pinboard". Owner of Search, Answer or Pinboard can share their content with other members by assigning them permissions.
+</p>
 
 <hr /> 
 
