@@ -42,6 +42,8 @@ margin-right: auto;"><span class="image fit"><img src="{{ "/images/TSpot_Arch.pn
 <p> ThoughtSpot is attracting data analytics enthusiasts from leading industries. It's highlight deature of being a Search Based Analytics tool and a strong recommender system is catching attention among BI platform leaders. TS is still in the process of diversify its capabilities, currently its emphasis is on reporting on cloud datasource, however it would be beneficial if TS tries to expand into other conventional data sources that industries are familiar with and use at large scale. Data preparation and data load within TS is a topic of discussion for some other time. Overall a thumbs up to this reporting tool and highly recommend fellow data experts to leverage this tool within their industry in some fashion.
 </p>
 
+<hr /> 
+
 <div class="row">
     <div class="6u 12u$(small)">
         <h3>References</h3>
