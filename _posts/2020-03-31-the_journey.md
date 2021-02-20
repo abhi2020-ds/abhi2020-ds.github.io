@@ -24,10 +24,12 @@ margin-right: auto;"><span class="image fit"><img src="{{ "/images/TSpot_Arch.pn
 
 <h5>Tool Highlight</h5>
 <p><span class="image right"><img src="{{ "/images/Top Menu.png" | absolute_url }}" alt="" /></span>ThoughtSpot Menu Options consists of : Search, Answer, Pinboard, Data and Admin Tabs.</p>
-<h6>Search</h6>
-<p> <span class="image right"><img src="{{ "/images/Search.png" | absolute_url }}" alt="" /></span>Search usually is used for creating Answers and Pinboards using Worksheets, Views and Tables as sources. It's very intuitive and can find your fields from the sources automatically within search bar. It also relays data in a suitable visual automatically. If you like your search result then you can save them in the form of "Answers" and also Pin those visuals and create a consolidated "Pinboard". Owner of Search, Answer or Pinboard can share their content with other members by assigning them permissions.
+<h6>Search : </h6>
+<p> <span class="image right"><img src="{{ "/images/Search.png" | absolute_url }}" alt="" /></span>Search usually is used for creating Answers and Pinboards using Worksheets, Views and Tables as sources. It's very intuitive and can find your fields from the sources automatically within search bar. It also relays data in a suitable visual automatically. If you like your search result then you can save them in the form of <i>"Answers"</i> and also Pin those visuals and create a consolidated <i>"Pinboard"</i>. Owner of Search, Answer or Pinboard can share their content with other members by assigning them permissions. Users can also perform complex searches (nested) which can solve for some of the complexity that can occur while answering difficult business questions.
 </p>
-
+<h6>Answer : </h6>
+<p> <span class="image right"><img src="{{ "/images/Search.png" | absolute_url }}" alt="" /></span>Answer tab has collection of all saved Searches. Answers can also be transformed into Materialzed Views and used as sources within Worksheet. This provides flexibility to end user to reuse their existing contents.
+</p>
 <hr /> 
 
 <div class="row">
