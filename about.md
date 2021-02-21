@@ -1,6 +1,6 @@
 ---
 layout: page
-title: De∇gγ@π
+title: De∇gY@π
 description: This page highlights professional and personal accomplishments
 sitemap:
     priority: 0.7
