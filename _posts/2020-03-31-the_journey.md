@@ -7,7 +7,7 @@ image: "/images/thoughtspot.png"
 ---
 
 <h2>Gartner Magic Quadrant & ThoughtSpot</h2>
-<p>IT Professionals working with Business Intelligence and Analytics Platform are well acquianted with Gartner and its magic quadrants. Technology leaders in analytocs space try to land into "Leaders" quadrant. The other quadrants comprises of "Challengers", "Leaders", "Niche Players" and "Visionaries". Microsoft is currently leading this space in "Leader" quadrant with PowerBI tool followed by Tableau , Qlik and ThoughtSpot.</p>
+<p>IT Professionals working with Business Intelligence and Analytics Platform are quiet familiar with Gartner and its magic quadrants. Technology leaders in analytics space try to land into "Leaders" quadrant. The other quadrants comprises of "Challengers", "Leaders", "Niche Players" and "Visionaries". Microsoft is currently leading this space in "Leader" quadrant with PowerBI tool followed by Tableau , Qlik and ThoughtSpot.</p>
 <hr />  
 <p>
     <blockquote>According to Gartner : As disruptive as visual-based data discovery has been to traditional BI, a third wave of disruption has emerged in the form of augmented analytics, with machine learning (ML) generating insights on increasingly vast amounts of data. Augmented analytics also includes natural language processing (NLP) as a way of querying data and of generating narratives to explain drivers and graphics.</blockquote>
@@ -39,7 +39,7 @@ margin-right: auto;"><span class="image fit"><img src="{{ "/images/TSpot_Arch.pn
 <hr /> 
 
 <h2> Conclusion </h2>
-<p> ThoughtSpot is attracting data analytics enthusiasts from leading industries. It's highlight deature of being a Search Based Analytics tool and a strong recommender system is catching attention among BI platform leaders. TS is still in the process of diversify its capabilities, currently its emphasis is on reporting on cloud datasource, however it would be beneficial if TS tries to expand into other conventional data sources that industries are familiar with and use at large scale. Data preparation and data load within TS is a topic of discussion for some other time. Overall a thumbs up to this reporting tool and highly recommend fellow data experts to leverage this tool within their industry in some fashion.
+<p> ThoughtSpot is attracting data analytics enthusiasts from leading industries. It's highlight deature of being a Search Based Analytics tool with a strong recommender system is catching attention among BI platform leaders. ThoughtSpot is still in the process of diversifying its capabilities further, currently its emphasis is on reporting on cloud datasource, however ThoughtSpot can try to expand data connections to other conventional data sources that industries are familiar with and using at large scale. If you industry is transforming into cloud then this tool is the best option you got apart from PowerBI, Tableau, and Qlik. Data preparation and data load within TS is a topic of discussion for some other time. Overall a thumbs up to this reporting tool and highly recommend fellow data experts to leverage this tool within their industry in some fashion.
 </p>
 
 <hr /> 
