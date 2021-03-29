@@ -7,7 +7,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 
 # Comments
-disqus_shortname:   default
+disqus_shortname:   abhi2020-ds
+layout: default
+comments: true
 
 # Social
 analytics-id:       "default"
