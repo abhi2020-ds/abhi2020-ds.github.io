@@ -9,7 +9,7 @@ sitemap:
 ---
 
 <div style="margin-left: auto;
-  margin-right: auto;"><span class="image fit"><img src="{{ "/images/devgyan-me.gif" | absolute_url }}" width="400" height="200" alt="" /></span></div>`
+  margin-right: auto;"><span class="image fit"><img src="{{ "/images/devgyan-me.gif" | absolute_url }}" width="200" height="200" alt="" /></span></div>`
   
 <span class="image left"><img src="{{ "/images/profile.jpg" | absolute_url }}" alt="" /></span>
 
