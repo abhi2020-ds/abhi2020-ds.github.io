@@ -7,7 +7,6 @@ sitemap:
     lastmod: 2021-02-14
     changefreq: quarterly
 ---
-## About Me
 
 <div class="4u" style="margin-left: auto;
   margin-right: auto;"><span class="image fit"><img src="{{ "/images/devgyan-me.gif" | absolute_url }}" alt="" /></span></div>
