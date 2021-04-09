@@ -11,7 +11,10 @@ sitemap:
 
 <span class="image left"><img src="{{ "/images/profile.jpg" | absolute_url }}" alt="" /></span>
 
-Currently a Sr Developer - Data Analytics at a leading digital financial firm. I have been working in data science and engineering space for 10+ years. I have a M.S degree in Computer Sc from University Of Illinois and a bachelors degree in Computer Sc from SJB Institute Of Technology at Bangalore India.
+Currently a Sr Developer - Data Analytics at a leading digital financial firm. I have been working in data science and engineering space for 10+ years. I have a M.S degree in Computer Sc from University Of Illinois and a bachelors degree in Computer Sc from SJB Institute Of Technology at Bangalore India. 
+
+<div class="4u" style="margin-left: auto;
+  margin-right: auto;"><span class="image right"><img src="{{ "/images/devgyan-me.gif" | absolute_url }}" alt="" /></span></div>
 
 Technology has been my passion since high school when I stumbled upon computers and Operating Systems : MS DOS and GW Basic language. It was fascinating to see how we can communicate with machines and use it for computing along with experiencing virtual interaction. At home, IBM machine was my frst PC with OS being Windows 98. As I continued to advance through my technical learning I learnt programming languages such as HTML, C, Java and C++ at an early time. At present, my major area of focus is towards data analytics and engineering using BI platforms like Cognos, ThoughtSpot, and Power BI. 
 
