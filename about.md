@@ -8,8 +8,8 @@ sitemap:
     changefreq: quarterly
 ---
 
-<div class="4u" style="margin-left: auto;
-  margin-right: auto;"><span class="image fit"><img src="{{ "/images/devgyan-me.gif" | absolute_url }}" alt="" /></span></div>
+<div style="margin-left: auto;
+  margin-right: auto;"><span class="image fit"><img src="{{ "/images/devgyan-me.gif" | absolute_url }}" alt="" /></span></div>`
   
 <span class="image left"><img src="{{ "/images/profile.jpg" | absolute_url }}" alt="" /></span>
 
