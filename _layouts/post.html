@@ -37,10 +37,12 @@
       			 <div class="4u" style="margin-left: auto;
                      margin-right: auto;"><span class="image fit"><img src="{{page.image}}" alt="" /></span></div>
       			<p>{{content}}</p>
-                <div class="comments-wrapper">
-                {% include comments.html element=".post-content" github_account="abhi2020-ds/abhi2020-ds.github.io" require_cookie_consent="true" %}
-                </div>
       		</section>
+          <div class="comments-wrapper">
+              {% if page.comments_id %}
+                  {% include comments.html %}
+              {% endif %}
+          </div>
           <!--
           <div class="comments-wrapper">
               <div id="disqus_thread"></div>
