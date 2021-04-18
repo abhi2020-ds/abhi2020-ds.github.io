@@ -38,7 +38,7 @@
                      margin-right: auto;"><span class="image fit"><img src="{{page.image}}" alt="" /></span></div>
       			<p>{{content}}</p>
       		</section>
-<!--
+          <!--
           <div class="comments-wrapper">
               <div id="disqus_thread"></div>
               <script>
@@ -76,7 +76,10 @@
 
       <!-- Scripts -->
   		{% include scripts-main.html %}
-			{% include tracking.html %}
+        <!--{% include tracking.html %}
     <script id="dsq-count-scr" src="//abhi2020-ds.disqus.com/count.js" async></script>
+    -->
+        <script src="/js/jquery.min.js"></script>
+        {% include comments.html element=".post-content" github_account="abhi2020-ds/abhi2020-ds.github.io" require_cookie_consent="true" %}
 	</body>
 </html>
