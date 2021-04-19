@@ -40,13 +40,17 @@
       		</section>
           <div>
         <ul class="icons">
-        <li><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></li>
+        <li>
+            <a  href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ site.baseurl }}{{ page.url }}&title={{ page.title }}&summary={{ page.description }}&source={{ site.title }}"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+            title="Share on LinkedIn" >
+            <i class="fa fa-linkedin-square fa-2x" aria-hidden="true">LinkedIn</i>
+            </a>
+        </li>
           </div>
-          <div class="comments-wrapper">
               {% if page.comments_id %}
                   {% include comments.html %}
               {% endif %}
-          </div>
           <!--
           <div class="comments-wrapper">
               <div id="disqus_thread"></div>
