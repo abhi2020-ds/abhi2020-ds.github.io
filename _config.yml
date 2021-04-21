@@ -1,7 +1,7 @@
 # Site
 title:              "Dε∇gY@π"
-bio:                'Jekyll version of the Massively theme by HTML5UP'
-description:        "Jekyll version of the Massively theme by HTML5UP"
+bio:                'Dε∇gY@π is a Data Engineering & Visualization Blog Site'
+description:        "Dε∇gY@π is a Data Engineering & Visualization Blog Site"
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
@@ -26,6 +26,7 @@ email: abhi2020-ds@outlook.com
 
 # Other
 background_image:   /images/bg.jpg
+title_image:   /assets/icon/mstile-150x150.png
 # Tip: The color palette and other styles can be configured in /_sass/lib/_vars.scss
 slapform_thankyou_page: /thank-you
 
