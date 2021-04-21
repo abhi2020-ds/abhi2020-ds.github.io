@@ -54,7 +54,38 @@ request.send();
 </script>
 
 <hr>
-
+<div>
+<h3>Share</h3>
+<ul class="icons">
+<li>
+  <a  href="https://www.linkedin.com/shareArticle?mini=true&url=https://abhi2020-ds.github.io{{site.url}}{{ site.baseurl}}{{page.url}}&title={{page.title}}&summary={{page.excerpt}}&source={{site.title}}"
+  onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+  title="Share on LinkedIn" >
+  <i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i>
+  </a>
+</li>
+<li>
+  <a  href="https://www.facebook.com/sharer/sharer.php?u=https://abhi2020-ds.github.io{{site.url}}{{site.baseurl}}{{page.url}}"
+      onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+      title="Share on Facebook" >
+      <i class="fa fa-facebook-square fa-4x" aria-hidden="true"></i>
+  </a>
+</li>
+<li>
+  <a  href="https://twitter.com/intent/tweet?text={{page.title}}{{page.excerpt}}&url=https://abhi2020-ds.github.io{{site.url}}{{site.baseurl}}{{page.url}}"
+             onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+             title="Share on Twitter" >
+      <i class="fa fa-twitter-square fa-4x" aria-hidden="true"></i>
+  </a>
+</li>
+<li>
+  <a  href="http://www.reddit.com/submit?url=https://abhi2020-ds.github.io{{site.url}}{{site.baseurl}}{{page.url}}"
+             onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
+             title="Share on Reddit" >
+             <i class="fa fa-reddit-square fa-4x" aria-hidden="true"></i>
+  </a>
+</li>
+</div>
 <div class="github-comments">
     <h2><i class="fa fa-comment fa-2x" aria-hidden="true"></i>Comments</h2>
     <ul id="gh-comments-list"></ul>
