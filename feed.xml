@@ -15,7 +15,6 @@ layout: none
 <email>{{ site.email }}</email>
 </author>
 {% for post in site.posts limit:20 %}
-
 <entry>
 <title type="html"><![CDATA[{{ post.title | cdata_escape }}]]></title>
 <link rel="alternate" type="text/html" href="{{ site.url }}{{ post.url }}" />
@@ -34,9 +33,7 @@ layout: none
        {% unless post_image contains "://" %}
          {% assign post_image = post_image | absolute_url %}
        {% endunless %}
-<content type="html">{{ post.content | xml_escape | truncatewords:50 }}
-&lt;p&gt;&lt;a href=&quot;{{ site.url }}{{ post.url }}&quot;&gt;{{ post.title }}&lt;/a&gt; was originally published by {{ site.author }} at &lt;a href=&quot;{{ site.url }}&quot;&gt;{{ site.title }}&lt;/a&gt; on  {{ post.date | date: "%B %d, %Y" }}.&lt;/p&gt;</content>
-
+       <content type="html">{{ post.content | xml_escape | truncatewords:50 }}</content>
 </entry>
 {% endfor %}
  </feed>
