@@ -17,8 +17,8 @@ layout: none
 <entry>
 <title type="html"><![CDATA[{{ post.title | cdata_escape }}]]></title>
 <description>
-<![CDATA[<img align="left" hspace="5" src="{{ site.url }}{{ post.image }}"/>
-    {{ post.excerpt }}]]>
+<![CDATA[<p><img align="left" hspace="5" src="{{ site.url }}{{ post.image }}"/></p><p>
+    {{ post.excerpt }}</p>]]>
 </description>
 <link rel="alternate" type="text/html" href="{{ site.url }}{{ post.url }}" />
 <id>{{ site.url }}{{ post.id }}</id>
@@ -32,6 +32,8 @@ layout: none
 <email>{{ site.email }}</email>
 </author>
        <content type="html">{{ post.content | xml_escape | truncatewords:50 }}</content>
+       <media:content url=”{{ site.url }}{{ post.url }}” />
+
 </entry>
 {% endfor %}
  </feed>
