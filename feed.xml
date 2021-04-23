@@ -16,6 +16,11 @@ layout: none
 {% for post in site.posts limit:20 %}
 <entry>
 <title type="html"><![CDATA[{{ post.title | cdata_escape }}]]></title>
+<image>
+    <url>{{ site.url }}{{ post.image }}</url>
+    <title>{{ site.title }}</title>
+    <link>{{ site.url }}{{ post.id }}</link>
+  </image>
 <link rel="alternate" type="text/html" href="{{ site.url }}{{ post.url }}" />
 <id>{{ site.url }}{{ post.id }}</id>
 {% if post.modified %}<updated>{{ post.modified | to_xmlschema }}T00:00:00-00:00</updated>
