@@ -16,7 +16,7 @@ layout: none
 {% for post in site.posts limit:20 %}
 <entry>
 <title type="html"><![CDATA[{{ post.title | cdata_escape }}]]></title>
-<image>
+ <image>
     <url>{{ site.url }}{{ post.image }}</url>
     <title>{{ site.title }}</title>
     <link>{{ site.url }}{{ post.id }}</link>
