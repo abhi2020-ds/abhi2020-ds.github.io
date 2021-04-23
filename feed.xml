@@ -32,7 +32,7 @@ layout: none
 <email>{{ site.email }}</email>
 </author>
        <content type="html">{{ post.content | xml_escape | truncatewords:50 }}</content>
-       <media:content url=”{{ site.url }}{{ post.url }}” />
+       <media:content url=”{{ site.url }}{{ post.image }}” />
 
 </entry>
 {% endfor %}
