@@ -28,6 +28,16 @@ layout: none
 <email>{{ site.email }}</email>
 </author>
        <content type="html">{{ post.content | xml_escape | truncatewords:50 }}</content>
+       {% if post.excerpt and post.excerpt != empty %}
+              <summary type="html">{{ post.excerpt | strip_html | normalize_whitespace | xml_escape }}</summary>
+            {% endif %}
+
+            {% assign post_image = post.image.path | default: post.image %}
+            {% if post_image %}
+              {% unless post_image contains "://" %}
+                {% assign post_image = post_image | absolute_url %}
+              {% endunless %}
+            {% endif %}
 </entry>
 {% endfor %}
  </feed>
