@@ -30,5 +30,6 @@ layout: none
        <content type="html">{{ post.content | xml_escape | truncatewords:50 }}</content>
        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{{ post_image | xml_escape }}" />
               <media:content medium="image" url="{{ post_image | xml_escape }}" xmlns:media="http://search.yahoo.com/mrss/" />
+</entry>
 {% endfor %}
  </feed>
