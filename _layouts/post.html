@@ -42,15 +42,6 @@
                      margin-right: auto;"><span class="image fit"><img src="{{page.image}}" alt="" /></span></div>
       			<p>{{content}}</p>
       		</section>
-          <section>
-              {% if page.applause_button %}
-              <applause-button style="width: 58px; height: 58px;" color="black"
-                  url={{ site.url }}{{ page.url }} multiclap="true">
-              </applause-button>
-            {% else %}
-              <hr class="dingbat related" />
-            {% endif %}
-          </section>
               {% if page.comments_id %}
                   {% include comments.html %}
               {% endif %}
