@@ -17,9 +17,6 @@
 				<!-- Header -->
         <header id="header">
           <a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
-          <!-- add the button style & script -->
-           <link rel="stylesheet" href="/assets/css/applause-button.scss" />
-           <script src="/assets/js/applause-button.js"></script>
         </header>
 
 				<!-- Nav -->
@@ -40,9 +37,6 @@
       			 <div class="4u" style="margin-left: auto;
                      margin-right: auto;"><span class="image fit"><img src="{{page.image}}" alt="" /></span></div>
       			<p>{{content}}</p>
-                <p> <!-- add the button! -->
-                <applause-button style="width: 58px; height: 58px;"/>
-                </p>
       		</section>
               {% if page.comments_id %}
                   {% include comments.html %}
