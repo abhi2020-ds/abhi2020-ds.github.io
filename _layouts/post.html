@@ -44,15 +44,6 @@
                  <h5>Share</h5>
                  <ul class="icons">
                  <li>
-                     {% if page.applause_button %}
-                     <applause-button style="width: 30px; height: 30px;" color="black"
-                         url={{ site.url }}{{ page.url }} multiclap="true">
-                     </applause-button>
-                   {% else %}
-                     <hr class="dingbat related" />
-                   {% endif %}
-                 </li>
-                 <li>
                    <a  href="https://www.linkedin.com/shareArticle?mini=true&url={{site.url}}{{ site.baseurl}}{{page.url}}&title={{page.title}}&summary={{page.excerpt}}&source={{site.title}}"
                    onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
                    title="Share on LinkedIn" >
@@ -79,6 +70,15 @@
                               title="Share on Reddit" >
                               <i class="fa fa-reddit-square fa-lg" aria-hidden="true"></i>
                    </a>
+                 </li>
+                 <li>
+                     {% if page.applause_button %}
+                     <applause-button style="width: 30px; height: 30px;" color="black"
+                         url={{ site.url }}{{ page.url }} multiclap="true">
+                     </applause-button>
+                   {% else %}
+                     <hr class="dingbat related" />
+                   {% endif %}
                  </li>
                  </div>
       			<p>{{content}}</p>
