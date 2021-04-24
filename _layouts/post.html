@@ -40,6 +40,47 @@
       			</header>
       			 <div class="4u" style="margin-left: auto;
                      margin-right: auto;"><span class="image fit"><img src="{{page.image}}" alt="" /></span></div>
+                 <div>
+                 <h5>Share</h5>
+                 <ul class="icons">
+                 <li>
+                     {% if page.applause_button %}
+                     <applause-button style="width: 30px; height: 30px;" color="black"
+                         url={{ site.url }}{{ page.url }} multiclap="true">
+                     </applause-button>
+                   {% else %}
+                     <hr class="dingbat related" />
+                   {% endif %}
+                 </li>
+                 <li>
+                   <a  href="https://www.linkedin.com/shareArticle?mini=true&url={{site.url}}{{ site.baseurl}}{{page.url}}&title={{page.title}}&summary={{page.excerpt}}&source={{site.title}}"
+                   onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+                   title="Share on LinkedIn" >
+                   <i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i>
+                   </a>
+                 </li>
+                 <li>
+                   <a  href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{site.baseurl}}{{page.url}}"
+                       onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+                       title="Share on Facebook" >
+                       <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i>
+                   </a>
+                 </li>
+                 <li>
+                   <a  href="https://twitter.com/intent/tweet?text={{page.title}}{{page.excerpt}}&url={{site.url}}{{site.baseurl}}{{page.url}}"
+                              onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+                              title="Share on Twitter" >
+                       <i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i>
+                   </a>
+                 </li>
+                 <li>
+                   <a  href="http://www.reddit.com/submit?url={{site.url}}{{site.baseurl}}{{page.url}}"
+                              onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
+                              title="Share on Reddit" >
+                              <i class="fa fa-reddit-square fa-lg" aria-hidden="true"></i>
+                   </a>
+                 </li>
+                 </div>
       			<p>{{content}}</p>
       		</section>
               {% if page.comments_id %}
