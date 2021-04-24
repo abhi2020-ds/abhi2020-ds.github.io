@@ -12,7 +12,8 @@ Looking forward to exploring world of data engineering and data science.
 
 - [x] Modify Readme.md :+1:
 - [x] Update the Gitpage
-- [ ] Categorize repos based on technologies and languages
+- [x] Categorize repos based on technologies and languages
+- [x] Add social interactions to the page
 
 [<img src="https://img.shields.io/badge/Massively%20Integration-Complete-green.svg?style=for-the-badge" alt="repo outline">](#massively)  
 
