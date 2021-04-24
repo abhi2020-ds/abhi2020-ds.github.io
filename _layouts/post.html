@@ -44,9 +44,8 @@
       		</section>
           <section>
               {% if page.applause_button %}
-              <applause-button style="width: 58px; height: 58px;"
-                color={{ site.accent_color | default:'rgb(79,177,186)' }}
-                url={{ site.url }}{{ page.url }} >
+              <applause-button style="width: 58px; height: 58px;" color="black"
+                  url={{ site.url }}{{ page.url }} multiclap="true">
               </applause-button>
             {% else %}
               <hr class="dingbat related" />
