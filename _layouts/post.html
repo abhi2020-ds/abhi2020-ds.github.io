@@ -42,6 +42,14 @@
                      margin-right: auto;"><span class="image fit"><img src="{{page.image}}" alt="" /></span></div>
       			<p>{{content}}</p>
       		</section>
+          {% if page.applause_button %}
+            <applause-button
+              color={{ site.accent_color | default:'rgb(79,177,186)' }}
+              url={{ site.url }}{{ page.url }} >
+            </applause-button>
+          {% else %}
+            <hr class="dingbat related" />
+          {% endif %}
               {% if page.comments_id %}
                   {% include comments.html %}
               {% endif %}
@@ -75,14 +83,6 @@
               </ul>
 						</footer>
 					</div>
-                {% if page.applause_button %}
-                  <applause-button
-                    color={{ site.accent_color | default:'rgb(79,177,186)' }}
-                    url={{ site.url }}{{ page.url }} >
-                  </applause-button>
-                {% else %}
-                  <hr class="dingbat related" />
-                {% endif %}
 
 				<!-- Footer -->
         {% include foot.html %}
