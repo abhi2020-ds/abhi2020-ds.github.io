@@ -39,6 +39,7 @@ defaults:
     permalink: "/blog/:title/"
     layout: post
     author: Abhineet Singh
+    applause_button: true
 
 # Jekyll
 permalink:          /blog/:title/
