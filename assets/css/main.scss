@@ -70,14 +70,3 @@ $background_image: '{{site.background_image}}';
 	@import 'layout/footer';
 	@import 'layout/navPanel';
 
-//Progress Bar
-
-#progress-bar {
-  background: linear-gradient(to right, red var(--progress), transparent 0);
-  position: sticky;
-  overflow: hidden;
-  width: 100%;
-  height: 3px;
-  z-index: 1;
-}
-

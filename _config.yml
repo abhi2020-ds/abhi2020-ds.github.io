@@ -56,8 +56,6 @@ sass:
   sass_dir:         _sass
   style:            compressed
 
-head_scripts:
-  - /assets/js/my-javscript.js
 # Gems
 gems:
   - jekyll-mentions
