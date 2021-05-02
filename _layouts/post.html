@@ -41,6 +41,10 @@
       			 <div class="4u" style="margin-left: auto;
                      margin-right: auto;"><span class="image fit"><img src="{{page.image}}" alt="" /></span></div>
                  <div>
+                     <div class="rpi-progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+                         <div class="rpi-progress-bar__position" aria-hidden="true"></div>
+                         <div class="rpi-progress-bar__percentage"></div>
+                       </div>
                  <h5>Share</h5>
                  <ul class="icons">
                  <li>
@@ -127,5 +131,28 @@
         <!--{% include tracking.html %}
     <script id="dsq-count-scr" src="//abhi2020-ds.disqus.com/count.js" async></script>
     -->
+        <script>
+        var rpi;
+        setTimeout(function waitUntilDomIsReadyLoadingCustomFontsMightOffsetThis() {
+          rpi = new ReadingPositionIndicator({
+            rpiArea: '[data-rpi-area]', /* optional, query selector to an element */
+            progressBar: { /* optional */
+              show: true, /* default true */
+              color: 'rgba(0, 120, 120, .5)', /* default from css */
+            },
+            percentage: { /* optional */
+              show: true, /* default false */
+              displayBeforeScroll: false, /* default false */
+              opacity: .3, /* default from css */
+              color: '#000', /* default from css */
+            },
+          }).init();
+        }, 500);
+        /* Wait until DOM has fully rendered the rpiArea to get the calculations correct.
+        If rpiArea is not used, then this should not be important. */
+
+        // rpi.destroy(); // use when to be removed
+        // rpi.update(); // optional force update, usage example: if you have updated the DOM and need to refresh the indicator
+          </script>
 	</body>
 </html>
