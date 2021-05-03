@@ -40,15 +40,13 @@
       			</header>
       			 <div class="4u" style="margin-left: auto;
                      margin-right: auto;"><span class="image fit"><img src="{{page.image}}" alt="" /></span></div>
-                 <div><i class="fa fa-clock-o"></i>
-                     {% capture read_time %}
-                       {{ page.content | strip_html | number_of_words | divided_by: 180 | round }}
-                     {% endcapture %}
-                     {% if read_time != '0' %}
-                       {{ read_time }}
+                 <div>{% assign words = page.content | strip_html | number_of_words %}
+                     {% if words < 270 %}
+                     {% capture read_time -%}1 minute{% endcapture %}
                      {% else %}
-                       1
-                     {% endif %} min read</div>
+                     {% capture read_time %}{{ words | divided_by:180 }} minutes{% endcapture %}
+                     {% endif %}
+                     <i class="fa fa-clock-o"></i> {{read_time}} to read</div>
                  <br>
                  <div>
                  <h5>Share</h5>
