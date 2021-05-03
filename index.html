@@ -79,7 +79,7 @@ sitemap:
   									</header>
   									<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
   									<p>{{ post.excerpt }}</p>
-                                    <p>{% assign words = page.content | strip_html | number_of_words %}
+                                    <p>{% assign words = post.content | strip_html | number_of_words %}
                                     {% if words < 180 %}
                                     {% capture read_time -%}1 minute{% endcapture %}
                                     {% else %}

@@ -57,7 +57,7 @@
                                 <div style="margin-left: auto;
                                     margin-right: auto;"><span class="image fit"><a href="{{ post.url | absolute_url }}"><img src="{{ post.image | absolute_url }}" alt="" /></a></span></div>
 								<p>{{ post.excerpt }}</p>
-                                <p>{% assign words = page.content | strip_html | number_of_words %}
+                                <p>{% assign words = post.content | strip_html | number_of_words %}
                                 {% if words < 180 %}
                                 {% capture read_time -%}1 minute{% endcapture %}
                                 {% else %}
