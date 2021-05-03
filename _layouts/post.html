@@ -80,7 +80,16 @@
                      <hr class="dingbat related" />
                    {% endif %}
                  </li>
-                 <li>{%- include reading_time.html content=page.content -%}</li>
+                 <li>
+                     {% capture read_time %}
+                       {{ page.content | strip_html | number_of_words | divided_by: 180 }}
+                     {% endcapture %}
+                     {% if read_time != '0' %}
+                       {{ read_time }}
+                     {% else %}
+                       1
+                     {% endif %} min read
+                 </li>
                  </div>
       			<p>{{content}}</p>
       		</section>
