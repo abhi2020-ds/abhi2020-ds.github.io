@@ -1,12 +1,9 @@
-{% capture words %}
-      {{ page.content | strip_html | number_of_words | minus: 180 }}
-   {% endcapture %}
-   {% unless words contains "-" %}
-     {% assign minutes = words | plus: 180 | divided_by: 180 %}
-        {{ minutes }}
-     {% if minutes == 1 %}
-        {{ " minute to read." }}
-     {% else %}
-        {{ " minutes to read." }}
-     {% endif %}
-   {% endunless %}
+{% capture output %}
+  {% assign words = include.content | strip_html | number_of_words %}
+  {% capture formatted_words %}{% include thousands.html number = words %}{% endcapture %}
+  <span class="read-time" title="Estimated ({{ formatted_words | strip }} words at 200 words per minute)">
+    {{ words | divided_by: 200 | plus: 1 }} min read
+  </span>
+{% endcapture %}
+
+{{ output | strip_newlines | strip }}
