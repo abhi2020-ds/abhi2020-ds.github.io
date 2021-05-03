@@ -40,6 +40,15 @@
       			</header>
       			 <div class="4u" style="margin-left: auto;
                      margin-right: auto;"><span class="image fit"><img src="{{page.image}}" alt="" /></span></div>
+                 <div><i class="fa fa-clock-o"></i>
+                     {% capture read_time %}
+                       {{ page.content | strip_html | number_of_words | divided_by: 180 | round }}
+                     {% endcapture %}
+                     {% if read_time != '0' %}
+                       {{ read_time }}
+                     {% else %}
+                       1
+                     {% endif %} min read</div>
                  <div>
                  <h5>Share</h5>
                  <ul class="icons">
@@ -79,16 +88,6 @@
                    {% else %}
                      <hr class="dingbat related" />
                    {% endif %}
-                 </li>
-                 <li> <i class="fa fa-clock-o"></i> 
-                     {% capture read_time %}
-                       {{ page.content | strip_html | number_of_words | divided_by: 180 | round }}
-                     {% endcapture %}
-                     {% if read_time != '0' %}
-                       {{ read_time }}
-                     {% else %}
-                       1
-                     {% endif %} min read
                  </li>
                  </div>
       			<p>{{content}}</p>

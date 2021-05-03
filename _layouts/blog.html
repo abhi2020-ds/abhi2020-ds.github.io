@@ -57,7 +57,7 @@
                                 <div style="margin-left: auto;
                                     margin-right: auto;"><span class="image fit"><a href="{{ post.url | absolute_url }}"><img src="{{ post.image | absolute_url }}" alt="" /></a></span></div>
 								<p>{{ post.excerpt }}</p>
-                                <p>{% capture read_time %}
+                                <p><i class="fa fa-clock-o"></i>{% capture read_time %}
                                 {{ post.content | strip_html | number_of_words | divided_by: 180 | round }}
                               {% endcapture %}
                               {% if read_time != '0' %}
