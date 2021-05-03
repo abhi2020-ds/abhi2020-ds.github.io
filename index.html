@@ -79,6 +79,14 @@ sitemap:
   									</header>
   									<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
   									<p>{{ post.excerpt }}</p>
+                                    <p><i class="fa fa-clock-o"></i>{% capture read_time %}
+                                    {{ post.content | strip_html | number_of_words | divided_by: 180 | round }}
+                                  {% endcapture %}
+                                  {% if read_time != '0' %}
+                                    {{ read_time }}
+                                  {% else %}
+                                    1
+                                  {% endif %} min read</p>
   									<ul class="actions">
   										<li><a href="{{ post.url | absolute_url }}" class="button">More..</a></li>
   									</ul>
