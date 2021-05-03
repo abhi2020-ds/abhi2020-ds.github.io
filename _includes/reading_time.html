@@ -1,6 +1,6 @@
 {% capture words %}
-{{ content | strip_html | number_of_words | minus: 180 }}
+{{ content | strip_html | number_of_words }}
 {% endcapture %}
 {% unless words contains '-' %}
-{{ words | divided_by: 180 | plus: 1 }} min read.
+{{ words | divided_by:180 }} mins read.
 {% endunless %}
