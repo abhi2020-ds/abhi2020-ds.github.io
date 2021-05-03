@@ -82,7 +82,7 @@
                  </li>
                  <li>
                      {% capture read_time %}
-                       {{ page.content | strip_html | number_of_words | divided_by: 180 }}
+                       {{ page.content | strip_html | number_of_words | divided_by: 180 | round }}
                      {% endcapture %}
                      {% if read_time != '0' %}
                        {{ read_time }}
