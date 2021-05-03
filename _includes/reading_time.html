@@ -1,5 +1,5 @@
 {% capture words %}
-      {{ page.content | number_of_words | minus: 180 }}
+      {{ page.content | strip_html | number_of_words | minus: 180 }}
    {% endcapture %}
    {% unless words contains "-" %}
      {% assign minutes = words | plus: 180 | divided_by: 180 %}
