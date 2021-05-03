@@ -80,7 +80,7 @@
                      <hr class="dingbat related" />
                    {% endif %}
                  </li>
-                 <li>{% include reading_time.html %}</li>
+                 <li>{%- include reading_time.html content=page.content -%}</li>
                  </div>
       			<p>{{content}}</p>
       		</section>
