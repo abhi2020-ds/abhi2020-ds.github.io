@@ -41,12 +41,12 @@
       			 <div class="4u" style="margin-left: auto;
                      margin-right: auto;"><span class="image fit"><img src="{{page.image}}" alt="" /></span></div>
                  <div>{% assign words = page.content | strip_html | number_of_words %}
-                     {% if words < 270 %}
+                     {% if words < 180 %}
                      {% capture read_time -%}1 minute{% endcapture %}
                      {% else %}
                      {% capture read_time %}{{ words | divided_by:180 }} minutes{% endcapture %}
                      {% endif %}
-                     <i class="fa fa-clock-o"></i> {{read_time}} to read</div>
+                     <i class="fa fa-clock-o"></i> {{read_time}}</div>
                  <br>
                  <div>
                  <h5>Share</h5>
