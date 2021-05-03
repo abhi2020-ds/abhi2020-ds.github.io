@@ -80,7 +80,7 @@
                      <hr class="dingbat related" />
                    {% endif %}
                  </li>
-                 <li>
+                 <li> <i class="fa fa-clock-o"></i> 
                      {% capture read_time %}
                        {{ page.content | strip_html | number_of_words | divided_by: 180 | round }}
                      {% endcapture %}
