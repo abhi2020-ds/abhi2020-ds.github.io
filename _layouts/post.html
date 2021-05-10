@@ -32,7 +32,6 @@
 				<!-- Main -->
 				<div id="main">
           <section class="post">
-                    <div id="progress-bar"></div>
     				<header class="major">
       				<span class="date">{{page.date | date_to_string}}</span>
       				<h1>{{page.title}}</h1>
@@ -89,6 +88,7 @@
                    {% endif %}
                  </li>
                  </div>
+                 <div id="progress-bar"></div>
       			<p>{{content}}</p>
       		</section>
               {% if page.comments_id %}
