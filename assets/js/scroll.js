@@ -1,18 +1,13 @@
-document.addEventListener('scroll', _ => {
-  var docElem = document.documentElement;
-  var docBody = document.body;
-  var scrollTop = (docBody.scrollTop || docElem.scrollTop);
-  var height = docElem.scrollHeight - docElem.clientHeight;
+let processScroll = () => {
+  let docElem = document.documentElement,
+    docBody = document.body,
+    scrollTop = docElem['scrollTop'] || docBody['scrollTop'],
+      scrollBottom = (docElem['scrollHeight'] || docBody['scrollHeight']) - window.innerHeight,
+    scrollPercent = scrollTop / scrollBottom * 100 + '%';
+  
+  // console.log(scrollTop + ' / ' + scrollBottom + ' / ' + scrollPercent);
+  
+    document.getElementById("progress-bar").style.setProperty("--scrollAmount", scrollPercent);
+}
 
-  progress = scrollTop / height * 100;
-
-  if (progress > 0) {
-    progressBar = document.querySelector('#progress-bar');
-    var bgVal = '';
-    bgVal = 'linear-gradient(to right, red ' + progress + '%, transparent 0)';
-    progressBar.style.background = bgVal;
-  } else {
-    var bgVal = 'linear-gradient(to right, red 0%, transparent 0)';
-    progressBar.style.background = bgVal;
-  }
-})
+document.addEventListener('scroll', processScroll);
