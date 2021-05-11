@@ -4,7 +4,7 @@
  /*& background-image: linear-gradient(120deg, #84fab0 0%, #84fab0 80%);
   width: var(--scrollAmount);*/
   background: linear-gradient(to right, #84fab0 var(--scrollAmount), transparent 0);
-  width: 95%;
+  width: 85%;
   height: 10px;
   position: fixed;
   top: 0;
