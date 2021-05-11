@@ -1,8 +1,16 @@
+/* Progress bar */
 #progress-bar {
-  background: linear-gradient(to right, red var(--progress), transparent 0);
+  --scrollAmount: 0%;
+  
+  background-image: linear-gradient(45deg, #84fab0 0%, #84fab0 100%);
+  width: var(--scrollAmount);
+
+  /*  background: linear-gradient(to right, #F24E1E var(--scrollAmount), transparent 0);
+  width: 100%; */
+  
+  height: 10px;
   position: sticky;
+  top: 0;
   overflow: hidden;
-  width: 100%;
-  height: 3px;
   z-index: 1;
 }
