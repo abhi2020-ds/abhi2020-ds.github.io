@@ -11,7 +11,7 @@ sitemap:
   <h2><a href="#">About Me</a></h2>
 </header>
 <div style="margin-left: auto;
-  margin-right: auto;"><span class="image fit"><img src="{{ "/images/devgyan-me.gif" | absolute_url }}" width="200" height="250" alt="" /></span></div>
+  margin-right: auto;"><span class="image fit"><img src="{{ "/images/devgyan-me.gif" | absolute_url }}"  alt="" /></span></div>
   
 <span class="image left"><img src="{{ "/images/profile.jpg" | absolute_url }}" alt="" /></span>
 
