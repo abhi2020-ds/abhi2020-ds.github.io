@@ -15,8 +15,8 @@ sitemap:
   
 <span class="image left"><img src="{{ "/images/profile.jpg" | absolute_url }}" alt="" /></span>
 
-Over 10+ years experience in Data Analytics and Engineering. Have a M.S degree in Computer Sc from University Of Illinois. Passionate to learn and grow in this space as technology evolves.
+Data engineering/science enthusiast with 12+ years of experience leading cross-functional IT teams in design and development of robust reporting ecosystem. Expertise in synthesizing information from complex OLTP & OLAP database systems. 
 
   <p>
-  Having worked in data warehouse domain for many years, I have developed my skills at advanced knowledge of database systems along with latest BI technologies. Over the years, working at manufacturing, retail and finance Industries has helped me better understand key business process and operations. My goal is to keep exploring data anlytics, science and engineering domain and collaborate with fellow enthusiasts.
+  Having worked in data warehouse domain for many years, I have developed my skills at advanced knowledge of database systems along with latest BI technologies. Over the years, working at manufacturing, retail, finance and QSR Industries has helped me better understand key business process and operations. My goal is to keep exploring data anlytics, science and engineering domain and collaborate with fellow enthusiasts.
   </p>
