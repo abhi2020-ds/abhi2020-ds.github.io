@@ -15,8 +15,6 @@ sitemap:
   
 <span class="image left"><img src="{{ "/images/profile.jpg" | absolute_url }}" alt="" /></span>
 
-Data engineering/science enthusiast with 12+ years of experience leading cross-functional IT teams in design and development of robust reporting ecosystem. Expertise in synthesizing information from complex OLTP & OLAP database systems. 
+Accomplished and seasoned Advanced Data Analytics Expert with over 13+ years of experience across diverse industries. Proven track record of engineering advanced data analytics solutions to drive business insights, enhance operational efficiency, and optimize decision-making processes. A strategic thinker with a keen understanding of industry-specific challenges, dedicated to delivering impactful results through efficient data-driven strategies.
 
-  <p>
-  Having worked in data warehouse domain for many years, I have developed my skills at advanced knowledge of database systems along with latest BI technologies. Over the years, working at manufacturing, retail, finance and QSR Industries has helped me better understand key business process and operations. My goal is to keep exploring data anlytics, science and engineering domain and collaborate with fellow enthusiasts.
-  </p>
+
