@@ -13,8 +13,9 @@ sitemap:
 <div style="margin-left: auto;
   margin-right: auto;"><span class="image fit"><img src="{{ "/images/devgyan-me.gif" | absolute_url }}"  alt="" /></span></div>
   
-<span class="image left"><img src="{{ "/images/profile.jpg" | absolute_url }}" alt="" /></span>
+<!--span class="image left"><img src="{{ "/images/profile.jpg" | absolute_url }}" alt="" /></span> -->
 
-Accomplished and seasoned Advanced Data Analytics Expert with over 13+ years of experience across diverse industries. Proven track record of engineering advanced data analytics solutions to drive business insights, enhance operational efficiency, and optimize decision-making processes. A strategic thinker with a keen understanding of industry-specific challenges, dedicated to delivering impactful results through efficient data-driven strategies.
+Accomplished and results-driven Advanced Analytics Leader with over 13 years of progressive experience. Proven track record of engineering sophisticated data analytics solutions to drive business insights, enhance operational efficiency, and optimize decision-making processes.
+Throughout my career, I've gained extensive experience in business intelligence technologies, machine learning and statistical modeling techniques. Developing and implementing various algorithms such as linear and logistic regression, and decision trees for predictive modeling and classification tasks. I've also utilized clustering algorithms like k-means and hierarchical clustering for segmentation and pattern recognition.
 
 
