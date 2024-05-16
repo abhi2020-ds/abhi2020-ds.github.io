@@ -4,7 +4,7 @@ bio:                'Dε∇gY@π is a Data Engineering & Visualization Blog Site
 description:        "Dε∇gY@π is a Data Engineering & Visualization Blog Site"
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://abhi2020-ds.github.io" # the base hostname & protocol for your site
+url: "https://devgyan.work" # the base hostname & protocol for your site
 
 # Comments
 disqus_shortname:   abhi2020-ds
@@ -19,7 +19,7 @@ instagram:          "default"
 github:             abhi2020-ds
 dribble:            "default"
 author:             Abhineet Singh
-uri:                "https://abhi2020-ds.github.io/resume/"
+uri:                "https://devgyan.work"
 
 # personal
 location:
