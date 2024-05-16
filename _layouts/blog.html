@@ -26,7 +26,7 @@ sitemap:
 
 				<!-- Header -->
 				<header id="header">
-					<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
+					<a href="{{ "/" | relative_url }}" class="logo">{{site.title}}</a>
 				</header>
 
 
@@ -44,7 +44,7 @@ sitemap:
               <h2><a href="#">Dε∇gY@π Blog</a></h2>
             </header>
             <div style="margin-left: auto;
-              margin-right: auto;"><span class="image fit"><img src="{{ "/images/devgyan-blog.gif" | absolute_url }}" alt="" /></span></div>
+              margin-right: auto;"><span class="image fit"><img src="{{ "/images/devgyan-blog.gif" | relative_url }}" alt="" /></span></div>
 						<p>
 							Get ready to dive into a treasure trove of insights! Articles here are your guide to unlocking the power of innovative BI, cutting-edge data modeling, seamless devops integration, and groundbreaking data science solutions across diverse industries. With a toolkit boasting the dynamic duo of R and Python also alongside BI heavyweights like Power BI, Tableau, Cognos and ThoughtSpot etc., we're here to demystify complex concepts. Through illuminating sample code snippets and expert tips, we'll navigate the technical terrain together, empowering you to overcome any challenge that comes your way.
 						</p>
@@ -60,10 +60,10 @@ sitemap:
 							<article>
 								<header>
 									<span class="date">{{ post.date | date_to_string }}</span>
-									<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
+									<h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
 								</header>
                                 <div style="margin-left: auto;
-                                    margin-right: auto;"><span class="image fit"><a href="{{ post.url | absolute_url }}"><img src="{{ post.image | absolute_url }}" alt="" /></a></span></div>
+                                    margin-right: auto;"><span class="image fit"><a href="{{ post.url | relative_url }}"><img src="{{ post.image | relative_url }}" alt="" /></a></span></div>
 								<p>{{ post.excerpt }}</p>
                                 <p>{% assign words = post.content | strip_html | number_of_words %}
                                 {% if words < 180 %}
@@ -73,7 +73,7 @@ sitemap:
                                 {% endif %}
                                 <i class="fa fa-clock-o"></i> {{read_time}}</p>
 								<ul class="actions">
-									<li><a href="{{ post.url | absolute_url }}" class="button">More..</a></li>
+									<li><a href="{{ post.url | relative_url }}" class="button">More..</a></li>
 								</ul>
 							</article>
 							{% if mod3 == 0 %}
