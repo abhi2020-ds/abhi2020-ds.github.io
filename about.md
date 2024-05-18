@@ -15,6 +15,12 @@ sitemap:
   
 <span class="image left"><img src="{{ "/images/profile.jpg" | relative_url }}" alt="" /></span>
 
-Accomplished Data Science and Analytics Leader with over 13 years of experience driving innovation and operational efficiency across diverse industries, including finance, manufacturing, and QSR. Proven expertise in developing and implementing advanced predictive models, enhancing data management processes, and delivering actionable insights that significantly boost business performance. Successfully led cross-functional teams in the design and deployment of robust analytics solutions, achieving a 20% increase in customer growth forecast accuracy and a 12% rise in loyalty program sales. Skilled in leveraging state-of-the-art tools and technologies, such as Power BI, Python, R, and Azure, to architect scalable data ecosystems and optimize decision-making processes. Known for strategic vision, meticulous attention to detail, and the ability to translate complex data insights into clear, compelling narratives for senior leadership. Dedicated to fostering a culture of continuous learning and professional development within high-performing teams.
+Hey there! I'm a seasoned Data Science and Analytics aficionado with over 13 years of experience in transforming data into actionable insights. My journey has taken me through the realms of finance, manufacturing, and quick-service restaurants (QSR), where I've honed my skills in predictive modeling, advanced analytics, and data-driven decision-making.
+
+I thrive on solving complex data challenges and creating innovative solutions that drive business growth. Whether it's designing intuitive dashboards, automating data pipelines, or ensuring data integrity across platforms, I love turning raw data into strategic gold. My toolkit includes Power BI, Python (with all the cool libraries like pandas, matplotlib, and scikit-learn), R (dplyr, ggplot2, and Shiny), Azure, and a whole lot more.
+
+When I'm not diving deep into data, you can find me binge-watching Star Wars movies or catching up on my favorite anime series like One Piece and Naruto. I'm also a tech enthusiast who enjoys building NAS servers using Raspberry Pi and running Home Assistant in Docker containers. It's all about blending technology with fun!
+
+This blog is where I share my passion for data science and analytics. Join me as I explore the latest trends, offer tips and tutorials, and discuss how to harness the power of data to drive impactful change. Let's turn data into your secret weapon for success!
 
 
