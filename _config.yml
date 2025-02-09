@@ -1,7 +1,7 @@
 # Site
-title:              "Dε∇gY@π"
-bio:                'Dε∇gY@π is a Data Engineering & Visualization Blog Site'
-description:        "Dε∇gY@π is a Data Engineering & Visualization Blog Site"
+title:              "DevGyan"
+bio:                'DevGyan is a Data Engineering & Visualization Blog Site'
+description:        "DevGyan is a Data Engineering & Visualization Blog Site"
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://devgyan.work" # the base hostname & protocol for your site
@@ -13,12 +13,12 @@ comments: true
 
 # Social
 analytics-id:       G-LX5BY5ZRH8
-twitter:            abhi_03
-LinkedIn:           abhineetsingh03
+twitter:            "default"
+LinkedIn:           "default"
 instagram:          "default"
-github:             abhi2020-ds
+github:             "default"
 dribble:            "default"
-author:             Abhineet Singh
+author:             Mr. Singh
 uri:                "https://devgyan.work"
 
 # personal
@@ -38,7 +38,7 @@ defaults:
   values:
     permalink: "/blog/:title/"
     layout: post
-    author: Abhineet Singh
+    author: Mr. Singh
     applause_button: true
 
 # Jekyll
