@@ -1,6 +1,6 @@
 ---
 layout: page
-title: De∇gY@π
+title: DevGyan
 description: This page highlights professional and personal accomplishments
 sitemap:
     priority: 0.7
